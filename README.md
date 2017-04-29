@@ -1,2 +1,1 @@
-# TestGitHub2
-this the SEGP lab
+Small programs writtem in c++
