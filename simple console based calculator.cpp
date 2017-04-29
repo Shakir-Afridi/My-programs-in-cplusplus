@@ -20,28 +20,27 @@ int main()
     cin>>second;
     if(k=='+')
     {
-        first+second;
         cout<<"The operation you choose is addition and the sum is "<<first+second;
     }
-    if(k=='*')
+    else if(k=='*')
     {
-        first*second;
         cout<<"The operation you choose is multiplication and the product is "<<first*second;
     }
-    if(k=='/')
+    else if(k=='/')
     {
-        first/second;
         cout<<"The operation you choose is division and the quotient is "<<first/second;
     }
-    if(k=='%')
+    else if(k=='%')
     {
-        first%second;
         cout<<"The operation you choose is to find remainder and the remainder is "<<first%second;
     }
-    if(k=='-')
+    else if(k=='-')
     {
-        first-second;
         cout<<"The operation you choose is subtraction and the difference is "<<first-second;
+    }
+    else
+    {
+        cout<<"You entered a wrong operator";
     }
     return 0;
 }
